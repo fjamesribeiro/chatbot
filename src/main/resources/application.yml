@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+evolution:
+  api:
+    url: http://evolution_api:3000
+    token: ${EVOLUTION_API_TOKEN:123456789}
+
+ia:
+  tipo: chatgpt
+  openrouter:
+    api:
+      key: ${OPENROUTER_API_KEY:sua-chave-aqui}
+  chatgpt:
+    api:
+      key: ${CHATGPT_API_KEY:sua-chave-aqui}

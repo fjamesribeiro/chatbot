@@ -1,0 +1,36 @@
+# Java / Maven / Spring Boot
+target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+*.swp
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Docker
+*.container
+*.pid
+docker-compose.override.yml
+
+# Node (caso use Evolution com Node)
+node_modules/
+
+# IntelliJ
+*.ipr
+*.iws
+out/
+
+# Notion exports / extras
+*.csv
