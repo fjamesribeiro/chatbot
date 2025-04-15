@@ -3,14 +3,24 @@ server:
 
 evolution:
   api:
-    url: http://evolution_api:3000
-    token: ${EVOLUTION_API_TOKEN:123456789}
+    url: http://localhost:3000
+    instance: evolution
+    token: 429683C4C977415CAAFCCE10F7D57E11
+
+logging:
+  level:
+    root: INFO
+    br.com.chatbot: DEBUG
+
+prompt:
+  classificacao:
+    path: classpath:prompts/classificacao.txt
 
 ia:
-  tipo: chatgpt
+  tipo: openrouter
   openrouter:
     api:
-      key: ${OPENROUTER_API_KEY:sua-chave-aqui}
+      key: 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
   chatgpt:
     api:
       key: ${CHATGPT_API_KEY:sua-chave-aqui}
